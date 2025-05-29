@@ -9,10 +9,15 @@
     <div class="card">
       <img src="assets/images/WMG.png" alt="WMG Logo" class="logo" />
       <h2>WMG Family Golf Tournament Randomizer</h2>
-      <p><strong>Player:</strong> <span id="player">?</span></p>
       <p><strong>Game Type:</strong> <span id="game">?</span></p>
       <p><strong>Course Number:</strong> <span id="course">?</span></p>
-      <button onclick="randomize()">🎲 Randomize</button>
+      <button onclick="generateCourseAndGame()">
+        🎲 Generate Course & Game Type
+      </button>
+    </div>
+    <div class="card">
+      <p><strong>Player:</strong> <span id="player">?</span></p>
+      <button onclick="generatePlayer()">👤 Generate Player</button>
     </div>
     <script src="assets/JS/script.js"></script>
   </body>

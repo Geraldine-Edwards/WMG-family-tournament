@@ -10,8 +10,11 @@ function randomCourseNumber() {
   return Math.floor(Math.random() * totalCourses) + 1; // 1 to 33
 }
 
-function randomize() {
-  document.getElementById("player").textContent = randomItem(players);
+function generateCourseAndGame() {
   document.getElementById("game").textContent = randomItem(gameTypes);
   document.getElementById("course").textContent = `#${randomCourseNumber()}`;
+}
+
+function generatePlayer() {
+  document.getElementById("player").textContent = randomItem(players);
 }
