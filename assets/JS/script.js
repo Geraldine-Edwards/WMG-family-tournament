@@ -7,7 +7,9 @@ function randomItem(list) {
 }
 
 function randomCourseNumber() {
-  return Math.floor(Math.random() * totalCourses) + 1; // 1 to 33
+  let num = Math.floor(Math.random() * 32) + 1; // 1 to 32
+  if (num >= 12) num += 1; // Skip 12
+  return num;
 }
 
 function generateCourseAndGame() {
