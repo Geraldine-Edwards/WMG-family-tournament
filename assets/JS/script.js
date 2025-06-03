@@ -1,4 +1,4 @@
-const players = ["Player 1", "Player 2", "Player 3", "Player 4"]; // Replace with your family names
+const players = ["Player 1", "Player 2", "Player 3", "Player 4"]; 
 const gameTypes = ["Easy", "Hard", "Matchplay"];
 const totalCourses = 33;
 
