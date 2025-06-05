@@ -1,4 +1,4 @@
-const players = ["Player 1", "Player 2", "Player 3", "Player 4", "Player 5", "Player 6"]; 
+const players = ["Ger", "Shaz", "Keith", "Mike"]; 
 const gameTypes = ["Easy", "Hard", "Matchplay"];
 const totalCourses = 33;
 
